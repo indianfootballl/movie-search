@@ -15,7 +15,7 @@ services:
     plan: free
     rootDir: frontend
     buildCommand: npm ci && npm run build
-    staticPublishPath: frontend/build
+    staticPublishPath: build
     pullRequestPreviewsEnabled: false
     envVars:
       - key: REACT_APP_API_URL
