@@ -13,9 +13,8 @@ services:
   - type: static_site
     name: movie-search-frontend
     plan: free
-    rootDir: frontend
-    buildCommand: npm ci && npm run build
-    staticPublishPath: build
+    buildCommand: cd frontend && npm ci && npm run build
+    staticPublishPath: frontend/build
     pullRequestPreviewsEnabled: false
     envVars:
       - key: REACT_APP_API_URL
