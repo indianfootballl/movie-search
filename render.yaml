@@ -3,7 +3,6 @@ services:
     name: movie-search-backend
     env: docker
     plan: free
-    dockerfilePath: backend/Dockerfile
     autoDeploy: true
     envVars:
       - key: YOUTUBE_API_KEY
