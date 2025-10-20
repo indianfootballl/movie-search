@@ -1,0 +1,19 @@
+{
+  "name": "movie-search-api",
+  "version": "1.0.0",
+  "description": "Movie Search API for Vercel deployment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+

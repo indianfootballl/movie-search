@@ -1,0 +1,31 @@
+# Node / React
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+
+# Java / Maven
+backend/target/
+backend/.mvn/
+
+# Logs
+*.log
+logs/
+
+# OS / Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# Fly / cache
+**/.fly/
+**/.cache/
+
+# Env
+.env
+.env.*
+
+# Misc
+*.swp
+*.swo
